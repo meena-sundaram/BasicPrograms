@@ -7,6 +7,7 @@ public class EncapMain {
 		System.out.println(a.getEncap());
 		a.setEncap(1000);
 		System.out.println(a.getEncap());
+		System.out.println("End");
 	}
 }
 
