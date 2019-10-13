@@ -3,11 +3,9 @@ package basic;
 public class AtmProcess {
 	
 	double balance=5000;
-	
 	public double balance(){
 		return balance;		
 	}
-	
 	public void withdraw(double draw){
 		if(balance>draw){
 			balance= balance-draw;
